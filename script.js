@@ -51,6 +51,7 @@ function storeFormData() {
 }
 function resetFormData() {
   form.reset();
+  passwordsMatch = false;
 }
 
 function processFormData(e) {
