@@ -51,7 +51,6 @@ function storeFormData() {
 }
 function resetFormData() {
   form.reset();
-  validateForm();
 }
 
 function processFormData(e) {
